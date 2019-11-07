@@ -6,12 +6,15 @@
 #define INHERTANCE_EXERCISE_RECTANGLE_H
 
 
-class Rectangle {
-public:
+#include "Polygon.h"
 
-protected:
+class Rectangle : public Polygon{
+
+public:
+    int area (int l, int w);
 
 };
+
 
 
 #endif //INHERTANCE_EXERCISE_RECTANGLE_H

@@ -5,10 +5,12 @@
 #ifndef INHERTANCE_EXERCISE_TRIANGLE_H
 #define INHERTANCE_EXERCISE_TRIANGLE_H
 
-class Triangle {
+#include "Polygon.h"
+
+class Triangle : public Polygon {
 public:
 
-protected:
+    int area (int b, int h);
 
 };
 

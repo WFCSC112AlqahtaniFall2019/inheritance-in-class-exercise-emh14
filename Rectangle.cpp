@@ -4,5 +4,7 @@
 
 #include "Rectangle.h"
 
-
+int Rectangle::area (int l, int w){
+    return l*w;
+}
 
