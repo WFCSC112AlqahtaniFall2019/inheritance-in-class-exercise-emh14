@@ -8,13 +8,11 @@
 
 #include "Polygon.h"
 
-class Rectangle : public Polygon{
+class Rectangle : public Polygon {
 
 public:
-    int area (int l, int w);
-
+    int area();
 };
-
 
 
 #endif //INHERTANCE_EXERCISE_RECTANGLE_H

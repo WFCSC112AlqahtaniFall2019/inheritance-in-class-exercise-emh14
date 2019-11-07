@@ -9,11 +9,8 @@
 
 class Triangle : public Polygon {
 public:
-
-    int area (int b, int h);
-
+    int area();
 };
-
 
 
 #endif //INHERTANCE_EXERCISE_TRIANGLE_H
